@@ -62,46 +62,12 @@ const page = ({ params }) => {
           height={720}
           alt=""
         />
-        <h1 className="my-8 text-[26px] font-semibold">Introduction:</h1>
-        <p>{data.description}</p>
-        <h3 className="my-5 text-[18px] font-semibold">
-          just adding some lines here to check btw how are you !!{" "}
-        </h3>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <h3 className="my-5 text-[18px] font-semibold">
-          just adding some lines here to check btw how are you !!{" "}
-        </h3>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <h3 className="my-5 text-[18px] font-semibold">
-          just adding some lines here to check btw how are you !!{" "}
-        </h3>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
-        <h3 className="my-5 text-[18px] font-semibold">Conclusion: </h3>
-        <p className="my-3">
-          "Life is like a box of chocolates. You never know what you're gonna
-          get.
-        </p>
+
+        <div
+          className="blog-content"
+          dangerouslySetInnerHTML={{ __html: data.description }}
+        ></div>
+
         <div className="my-24">
           <p className="text-black font-semibold my-4">
             Share this article on social media
