@@ -39,9 +39,10 @@ const Header = () => {
       <div className="text-center my-8">
         <h1 className="text-3xl sm:text-5xl font-medium">Latest Blogs</h1>
         <p className="mt-10 max-w-[740px] m-auto text-xs sm:text-base">
-          This is example text to check and confirm the css part and i am
-          excited to work and whatever i am doing filling the space w/o using
-          lorem
+          Welcome to my Blog, a space where lifestyle, anime, and technology
+          come together! Dive into a blend of content that explores the latest
+          tech trends, deep dives into your favorite anime, and tips for living
+          a balanced, exciting lifestyle.
         </p>
         <form
           onSubmit={onSubmitHandler}
